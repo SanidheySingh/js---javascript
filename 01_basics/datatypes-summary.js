@@ -33,3 +33,24 @@ const hero = {
 const myFunction = function () {
     console.log("hello world");
 }// function inka datatype funcion
+
+
+//stack (primitive) , heap(Non-primitive)
+
+let myName  = "Hello world"
+let anotherName = myName
+
+anotherName = "chai aur code "
+console.log(myName);
+console.log(anotherName);
+
+
+let userOne ={
+    email:"asdhifbhifd",
+    upi:"jksvkjsd"
+}
+let userTwo = userOne
+userTwo.email = "jsdvhisdvhsiv"
+userTwo.upi = "shdvujs"
+console.log(userOne.email);
+console.log(userOne.email);
